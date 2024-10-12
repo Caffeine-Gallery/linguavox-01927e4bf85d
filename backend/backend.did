@@ -1,0 +1,6 @@
+service : {
+  getTranslation: (text) -> (opt text) query;
+  postupgrade: () -> () oneway;
+  preupgrade: () -> () oneway;
+  storeTranslation: (text, text) -> ();
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #61dafb;
+}
+
+textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    color: #ffffff;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+select {
+    cursor: pointer;
+}
+
+button {
+    background-color: #61dafb;
+    color: #1e1e1e;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4fa8d5;
+}
+
+#translationOutput {
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    padding: 10px;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
